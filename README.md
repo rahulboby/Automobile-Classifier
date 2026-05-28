@@ -12,10 +12,10 @@ This was a testing version to test out ResNet50 on my own. The classes are very 
 # v1
 The automobile_classifier_v1 will focus on KIA models seltos and carnival only
 - The goal is to predict the KIA models with 90%+ accuracy. 
-
 - The main task?
     - The dataset has to be very clean, with no noise, and no faulty data.
     - The classification classes are going to be very close as KIA follows similar designs among cars.
+- Unfroze the layer4 with the model.fc
 
 First run: 
 ![Confusion Matrix](image.png)
@@ -36,3 +36,6 @@ Final Run:
 - Increased the image size to 500, batch size to 64
 - 20 epochs
 - Dataset was highly cleaned - 400 to 500 images per class
+
+# Models:
+The models for each version are given in this drive link: [Automobile Classifier Models](https://drive.google.com/drive/folders/1Dzo2N9qPnRtoXx5FNe19c2tCIPrvAa0Y?usp=sharing)
