@@ -7,6 +7,16 @@ kia_sonet/
 testing_images/
 
 # =========================
+# TRAINED MODELS
+# =========================
+*.pth
+*.pt
+*.onnx
+*.engine
+models/
+**/models/
+
+# =========================
 # JUPYTER
 # =========================
 .ipynb_checkpoints/
